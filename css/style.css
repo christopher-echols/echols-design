@@ -124,10 +124,9 @@ body#body-index {
 #index-badge {
 	position: relative;
 	max-width: 400px;
-	margin: 0 auto;
+	margin: 20% auto;
 	padding: 4%;
 	text-align: center;
-	background: rgba(0, 150, 255, 0.15);
 }
 
 #index-badge p,
