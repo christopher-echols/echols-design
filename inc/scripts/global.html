@@ -1,0 +1,32 @@
+<!-- GOOGLE ANALYTICS -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-62714060-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- MMD PARSER -->
+
+<script>
+
+onload = function() {
+	let mdElements = document.querySelectorAll('article.md');
+
+	mdElements = Array.from(mdElements);
+
+	mdElements.forEach(function(element, array, index) {
+		const html = mmd(element.textContent);
+
+		element.innerHTML = html;
+		element.className = 'article-blog-item';
+	});
+
+}
+
+</script>
