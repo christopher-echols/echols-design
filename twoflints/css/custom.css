@@ -4,7 +4,8 @@ html, body {
 
 /* EDITOR */
 
-#editor-meta-input {
+#editor-meta-input .form-group {
+    margin-bottom: 1.2rem;
 }
 
 
