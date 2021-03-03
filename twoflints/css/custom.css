@@ -16,11 +16,13 @@ html, body {}
 
 #editor-body textarea.form-control {
   border: none;
+  border-left: 1px solid #CCC;
+  border-radius: 0;
   overflow: hidden;
   min-width: 100%;
   height: 1em;
   margin-bottom: 4%;
-  padding: 0;
+  padding: 0 2%;
   outline: none;
   background-color: #FFF;
   font-family: 'Courier Prime', monospace;
@@ -34,7 +36,10 @@ html, body {}
 
 #editor-body textarea.form-control:focus {
   border: none;
+  border-left: 1px solid #CCC;
+  border-radius: 0;
   overflow: auto;
+  padding: 0 2%;
   outline: none;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
