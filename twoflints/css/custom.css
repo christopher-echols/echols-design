@@ -1,40 +1,49 @@
-html, body {
-
-}
+html, body {}
 
 /* EDITOR */
-
 #editor-meta-input {
-    background: #FFF9F2;
+  background: #FFF9F2;
 }
 
 #editor-meta-input .form-group {
-    margin-bottom: 1.2rem;
+  margin-bottom: 1.2rem;
 }
 
 #editor-body {
-    padding: 8% 0;
-    background: #FFF;
+  padding: 8% 0;
+  background: #FFF;
 }
 
-#editor-body textarea.form-control  {
-    border: none;
-    overflow: hidden;
-    min-width:100%;
-    height:1em;
-    margin-bottom: 4%;
-    padding: 0;
-    outline: none;
-    background-color: #FFF;
-    font-family: 'Courier Prime', monospace;
-    font-size: 18px;
-    line-height: 1.6em;
+#editor-body textarea.form-control {
+  border: none;
+  overflow: hidden;
+  min-width: 100%;
+  height: 1em;
+  margin-bottom: 4%;
+  padding: 0;
+  outline: none;
+  background-color: #FFF;
+  font-family: 'Courier Prime', monospace;
+  font-size: 18px;
+  line-height: 1.6em;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  resize: none;
+}
+
+#editor-body textarea.form-control:focus {
+  border: none;
+  overflow: auto;
+  outline: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  resize: none;
 }
 
 /* PUBLISHED STORY */
-
-#body-wrapper.container-fluid {
-}
+#body-wrapper.container-fluid {}
 
 #published-story-hero h1 {
   font-family: 'Libre Baskerville', serif;
@@ -74,11 +83,9 @@ html, body {
 }
 
 /* Small devices (landscape phones, 576px and up) */
-
 @media (min-width: 576px) {}
 
 /* Medium devices (tablets, 768px and up) */
-
 @media (min-width: 768px) {
   #published-story-body {
     padding-top: 4%;
@@ -86,9 +93,7 @@ html, body {
 }
 
 /* Large devices (desktops, 992px and up) */
-
 @media (min-width: 992px) {}
 
 /* Extra large devices (large desktops, 1200px and up) */
-
 @media (min-width: 1200px) {}
