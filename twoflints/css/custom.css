@@ -3,6 +3,7 @@ html, body {}
 /* EDITOR */
 #editor-meta-input {
   background: #FFF9F2;
+  border-bottom: 1px solid #C29D93;
 }
 
 #editor-meta-input .form-group {
